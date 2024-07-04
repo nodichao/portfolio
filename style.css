@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Reddit+Mono:wght@200..900&display=swap');
+.font-h1{
+    font-family: 'Pacifico';
+}
+
+.font-body{
+    font-family: 'Reddit Mono';
+}
+
+.realisations button:hover{
+    background-color: white;
+    color: rgb(54, 54, 255);
+    transition: 0.5s;
+}
+
+.realisations button:hover i{
+    animation: visit 0.4s  alternate infinite;
+}
+@keyframes visit{
+    0%{
+        transform: translateX(-0px);
+    }
+    100%{
+        transform: translateX(8px);
+    }
+}
+

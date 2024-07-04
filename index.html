@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css"/>
+    <title>Portfolio jojo</title>
+  </head>
+  <body class="font-body">
+    <div class="content bg-[#dbd6d6]" id="content" >
+        <!--this is the header -->
+      <header>
+        <nav id="nav" class="nav flex justify-between p-[50px]">
+          <div id="logo">
+            <p>
+             <span class="text-[32px] font-h1 text-[#0000ff]">Joseph Nodichao</span>  <br />
+              < Fullstack web developper />
+            </p>
+          </div>
+          <div id="menu" class="menu">
+            <ul type="none">
+              <li class="inline-block mx-[20px] hover:text-[#3636ff] hover:tracking-[2px] hover:duration-500 hover:font-bold cursor-pointer"><a href="#presentation">home</a></li>
+              <li class="inline-block mx-[20px] hover:text-[#3636ff] hover:tracking-[2px] hover:duration-500 hover:font-bold cursor-pointer"><a href="#work">work</a></li>
+              <li class="inline-block mx-[20px] hover:text-[#3636ff] hover:tracking-[2px] hover:duration-500 hover:font-bold cursor-pointer"><a href="#skills">skills</a></li>
+              <li class="inline-block mx-[20px] hover:text-[#3636ff] hover:tracking-[2px] hover:duration-500 hover:font-bold cursor-pointer"><a href="#contact">contact me</a></li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+      <!--this is the main-->
+      <main>
+            <section class="presentation flex justify-between items-center px-[50px]" id="presentation">
+                    <div class="intro" id="intro">
+                        <h1 class="text-[32px] font-bold">Hey There !  <span class="italic text-[#3636FF]">I'm Joseph,</span></h1>
+                        <p>
+                            A young, dynamic and passionate developer.
+                            Welcome to  my portfolio.
+                        </p>
+                        
+                        <a href="#contact"><button class="rounded-md p-2 mt-2 bg-[#3636ff] text-white 
+                          w-[20%] hover:w-[23%] hover:duration-500 hover:bg-black" >Contact Me</button></a>
+                    </div>
+                    <div class="profile pr-28" id="profile">
+                        <div class="picture border-8 rounded-[50%] overflow-hidden w-[250px] h-[250px] border-[#3636ff]">
+                                <img src="profil.jpg" alt="profil" class=""/>
+                        </div>
+                    </div>
+            </section>
+            <section class="work  px-[50px]  bg-black text-white rounded-3xl my-8" id="work" style="height: auto;">
+                <h3 class=" text-center text-3xl py-8"><span class="font-h1 text-[#3636FF]"><i>W</i></span>ork</h3>
+
+                <div>
+                <div class="realisations flex">
+                  <div class=" w-1/2">
+                    <h4 class="underline mb-8">Elek Consulting Group</h4>
+                     <p>
+                       Ce projet est une plateforme de recontre entre les professionnels et etudiants en reconversion dans la technologie,
+                       et des mentors qualifiés dans les domaines ciblés. Avec des fonctionnalites telles que la <span><i class="text-[#3636FF]" >prise de rendez-vous</i></span> pour
+                       le client, l'<span><i class="text-[#3636FF]">envoi de canevas</i></span> par le mentor, elle accompagne ses adhérants dans l'accomplissement de leur
+                       projet professionnel.
+                     </p>
+                     <div class="visiter">
+                       <a href="https://admirable-crumble-cfd9c6.netlify.app/" target="_blank"><button class="my-4 p-2 rounded-lg bg-[#3636ff]">visiter le site <i class="fa-solid fa-chevron-right"></i></button></a>
+                     </div>
+                     
+                 </div>
+                    <div class=" w-1/2">
+                        <video width="70%" controls class="float-right border-4 border-[#3636ff]" autoplay loop>
+                            <source  src="ressources/demo.webm" type="video/webm"/>
+                        </video>
+                    </div>
+                    
+                </div>
+              <div class="github flex items-center">
+                <div class="w-[50px] h-[50px]">
+                  <img src="ressources/github.png" alt="gitbub"  >
+                </div>
+    
+                   <p class=" ">
+                    <a href="https://github.com/nodichao" target="_blank" class="underline hover:text-[#7952b3]">More projects on my GITHUB</a>
+                  </p>
+              </div>
+            </div>
+            </section>
+            <section class="skills px-[50px]" id="skills">
+              <h3 class="text-center text-3xl py-8"><span class="font-h1 text-[#3636FF]"><i>S</i></span>kills</h3> 
+              <div>
+                <div class="skrow1  grid grid-cols-4 grid-rows-1 gap-1 mb-8">
+                    <div class="s1 row-start-1 row-end-2 col-start-1 col-end-2 relative h-[230px]">
+                      <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#46a237]"><strong>M</strong></span>ongoDB</h4>
+                          <img  src="ressources/mongo.png"  alt="mongo" class="w-[200px] h-[200px] mx-auto"/>
+                    </div>
+                    <div class="s2 row-start-1 row-end-2 col-start-2 col-end-3 relative h-[230px]">
+                      <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#828282]"><strong>E</strong></span>xpress</h4>
+                        <img src="ressources/express.png" alt="express" class="w-[200px] h-[200px] mx-auto"/>
+                    </div>
+                    <div class="s3 row-start-1 row-end-2 col-start-3 col-end-4 relative h-[230px]">
+                      <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#00d8ff]"><strong>R</strong></span>eact</h4>
+                        <img src="ressources/react.png"  alt="react" class="w-[200px] h-[200px] mx-auto"/>
+                    </div>
+                    <div class="s4 row-start-1 row-end-2 col-start-4 col-end-5 relative h-[230px]">
+                      <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#84b925]"><strong>N</strong></span>odeJS</h4>
+                      <img  src="ressources/node (2).png" alt="node" class=" mx-auto"/>
+                    </div>
+                </div>
+                <div class="skrow2 grid grid-cols-4 grid-rows-1 gap-1">
+                  <div class="s5 row-start-1 row-end-2 col-start-1 col-end-2 relative h-[230px]">
+                    <h4 class="absolute bottom-0 left-[45%]"><span class="text-[#e34f26]"><strong>HTML</strong></span></h4>
+                    <img  src="ressources/html.png" alt="html" class="w-[200px] h-[200px] mx-auto"/>
+                  </div>
+                  <div class="s6 row-start-1 row-end-2 col-start-2 col-end-3 relative h-[230px]">
+                    <h4 class="absolute bottom-0 left-[45%]"><span class="text-[#379ad6]" ><strong>CSS</strong></span></h4>
+                    <img  src="ressources/css3.png" alt="css" class="w-[200px] h-[200px] mx-auto"/>
+                  </div>
+                  <div class="s7 row-start-1 row-end-2 col-start-3 col-end-4 relative h-[230px]">
+                    <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#d6ba32]"><strong>JavaScript</strong></span></h4>
+                    <img  src="ressources/JS.png" alt="JS" class="w-[200px] h-[200px] mx-auto"/>
+                  </div>
+                  <div class="s8 row-start-1 row-end-2 col-start-4 col-end-5 relative h-[230px]">
+                    <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#7952b3]"><strong>Bootstrap</strong></span></h4>
+                    <img  src="ressources/bootstrap.png" alt="bootstrap" class="w-[220px] h-[200px] mx-auto"/>
+                  </div>
+                </div>
+              </div>    
+            </section>
+
+            <section class="contact pb-4 bg-black text-white" id="contact">
+              <h3 class="text-center text-3xl py-8"><span class="font-h1 text-[#3636FF]"><i>C</i></span>ontact me</h3> 
+              <div>
+                   <form class="myform w-1/3  mx-auto">
+                        <div class="flex gap-1 mb-2" >
+                          <div class=" w-1/2">
+                            <label for="prenom">Prenom</label><br/>
+                            <input type="text" name="prenom" id="prenom" class="w-full rounded" />
+                          </div>
+                          <div class=" w-1/2">
+                            <label for="prenom">Nom</label><br/>
+                            <input type="text" name="nom" id="nom" class="w-full rounded" />
+                          </div> 
+                        </div>
+                        <div class="mb-2" >
+                          <label for="prenom" >Email</label><br/>
+                         <input type="email" name="email" id="email" class="w-full rounded" />
+                        </div>
+                        <div class="mb-2">
+                          <label>Message</label><br/> 
+                         <textarea placeholder="Votre message ici" class="w-full rounded" ></textarea>
+                        </div>
+                        
+                        <button class="w-full rounded bg-[#3636FF] mb-2 h-[40px] hover:bg-[rgb(28,28,145)]">Envoyer</button>
+                   </form>
+              </div>
+            </section>
+      </main>
+      <!--this is the footer-->
+      <footer class="bg-[#3636FF] px-[50px]">
+        <div class="py-10">
+          <p>
+            <span class="text-[25px] font-h1">Joseph Nodichao</span>  <br />
+             <strong>< Fullstack web developper /></strong>
+           </p>
+        </div>
+        <div class="text-center">
+          <p class="copyright">&copy; Joseph Henri NODICHAO | All rights reserved</p>
+        </div>
+        
+      </footer>
+    </div>
+    <script src="https://kit.fontawesome.com/0a79c8fccf.js" crossorigin="anonymous"></script>
+  </body>
+</html>
