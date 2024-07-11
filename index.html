@@ -14,7 +14,7 @@
         <nav id="nav" class="nav flex justify-between p-[50px]">
           <div id="logo">
             <p>
-             <span class="text-[32px] font-h1 text-[#0000ff]">Joseph Nodichao</span>  <br />
+             <span class="text-[32px] font-h1 text-[#0000ff] ">Joseph Nodichao</span>  <br />
               < Fullstack web developper />
             </p>
           </div>
@@ -25,6 +25,7 @@
               <li class="inline-block mx-[20px] hover:text-[#3636ff] hover:tracking-[2px] hover:duration-500 hover:font-bold cursor-pointer"><a href="#skills">skills</a></li>
               <li class="inline-block mx-[20px] hover:text-[#3636ff] hover:tracking-[2px] hover:duration-500 hover:font-bold cursor-pointer"><a href="#contact">contact me</a></li>
             </ul>
+            <i class="fa-solid fa-bars hamburger" style="color: #3837f8;"></i>
           </div>
         </nav>
       </header>
@@ -41,7 +42,7 @@
                         <a href="#contact"><button class="rounded-md p-2 mt-2 bg-[#3636ff] text-white 
                           w-[20%] hover:w-[23%] hover:duration-500 hover:bg-black" >Contact Me</button></a>
                     </div>
-                    <div class="profile pr-28" id="profile">
+                    <div class="profile [@media(max-width:900px)]:my-8" id="profile">
                         <div class="picture border-8 rounded-[50%] overflow-hidden w-[250px] h-[250px] border-[#3636ff]">
                                 <img src="profil.jpg" alt="profil" class=""/>
                         </div>
@@ -86,38 +87,38 @@
             <section class="skills px-[50px]" id="skills">
               <h3 class="text-center text-3xl py-8"><span class="font-h1 text-[#3636FF]"><i>S</i></span>kills</h3> 
               <div>
-                <div class="skrow1  grid grid-cols-4 grid-rows-1 gap-1 mb-8">
-                    <div class="s1 row-start-1 row-end-2 col-start-1 col-end-2 relative h-[230px]">
+                <div class="skrow1  grid grid-cols-4 grid-rows-1 gap-1 mb-8 [@media(max-width:900px)]:grid-cols-2 [@media(max-width:900px)]:grid-rows-2">
+                    <div class="s1 row-start-1 row-end-2 col-start-1 col-end-2 relative h-[230px] [@media(max-width:900px)]:col-start-1 [@media(max-width:900px)]:col-end-2 [@media(max-width:900px)]:row-start-1 [@media(max-width:900px)]:row-end-2">
                       <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#46a237]"><strong>M</strong></span>ongoDB</h4>
                           <img  src="ressources/mongo.png"  alt="mongo" class="w-[200px] h-[200px] mx-auto "/>
                     </div>
-                    <div class="s2 row-start-1 row-end-2 col-start-2 col-end-3 relative h-[230px]">
+                    <div class="s2 row-start-1 row-end-2 col-start-2 col-end-3 relative h-[230px] [@media(max-width:900px)]:col-start-2 [@media(max-width:900px)]:col-end-3 [@media(max-width:900px)]:row-start-1 [@media(max-width:900px)]:row-end-2">
                       <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#828282]"><strong>E</strong></span>xpress</h4>
                         <img src="ressources/express.png" alt="express" class="w-[200px] h-[200px] mx-auto"/>
                     </div>
-                    <div class="s3 row-start-1 row-end-2 col-start-3 col-end-4 relative h-[230px]">
+                    <div class="s3 row-start-1 row-end-2 col-start-3 col-end-4 relative h-[230px] [@media(max-width:900px)]:col-start-1 [@media(max-width:900px)]:col-end-2 [@media(max-width:900px)]:row-start-2 [@media(max-width:900px)]:row-end-3">
                       <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#00d8ff]"><strong>R</strong></span>eact</h4>
                         <img src="ressources/react.png"  alt="react" class="w-[200px] h-[200px] mx-auto"/>
                     </div>
-                    <div class="s4 row-start-1 row-end-2 col-start-4 col-end-5 relative h-[230px]">
+                    <div class="s4 row-start-1 row-end-2 col-start-4 col-end-5 relative h-[230px] [@media(max-width:900px)]:col-start-2 [@media(max-width:900px)]:col-end-3 [@media(max-width:900px)]:row-start-2 [@media(max-width:900px)]:row-end-3">
                       <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#84b925]"><strong>N</strong></span>odeJS</h4>
                       <img  src="ressources/node (2).png" alt="node" class=" mx-auto"/>
                     </div>
                 </div>
-                <div class="skrow2 grid grid-cols-4 grid-rows-1 gap-1">
-                  <div class="s5 row-start-1 row-end-2 col-start-1 col-end-2 relative h-[230px]">
+                <div class="skrow2 grid grid-cols-4 grid-rows-1 gap-1 [@media(max-width:900px)]:grid-cols-2 [@media(max-width:900px)]:grid-rows-2">
+                  <div class="s5 row-start-1 row-end-2 col-start-1 col-end-2 relative h-[230px] [@media(max-width:900px)]:col-start-1 [@media(max-width:900px)]:col-end-2 [@media(max-width:900px)]:row-start-1 [@media(max-width:900px)]:row-end-2">
                     <h4 class="absolute bottom-0 left-[45%]"><span class="text-[#e34f26]"><strong>HTML</strong></span></h4>
                     <img  src="ressources/html.png" alt="html" class="w-[200px] h-[200px] mx-auto"/>
                   </div>
-                  <div class="s6 row-start-1 row-end-2 col-start-2 col-end-3 relative h-[230px]">
+                  <div class="s6 row-start-1 row-end-2 col-start-2 col-end-3 relative h-[230px] [@media(max-width:900px)]:col-start-2 [@media(max-width:900px)]:col-end-3 [@media(max-width:900px)]:row-start-1 [@media(max-width:900px)]:row-end-2">
                     <h4 class="absolute bottom-0 left-[45%]"><span class="text-[#379ad6]" ><strong>CSS</strong></span></h4>
                     <img  src="ressources/css3.png" alt="css" class="w-[200px] h-[200px] mx-auto"/>
                   </div>
-                  <div class="s7 row-start-1 row-end-2 col-start-3 col-end-4 relative h-[230px]">
+                  <div class="s7 row-start-1 row-end-2 col-start-3 col-end-4 relative h-[230px] [@media(max-width:900px)]:col-start-1 [@media(max-width:900px)]:col-end-2 [@media(max-width:900px)]:row-start-2 [@media(max-width:900px)]:row-end-3">
                     <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#d6ba32]"><strong>JavaScript</strong></span></h4>
                     <img  src="ressources/JS.png" alt="JS" class="w-[200px] h-[200px] mx-auto"/>
                   </div>
-                  <div class="s8 row-start-1 row-end-2 col-start-4 col-end-5 relative h-[230px]">
+                  <div class="s8 row-start-1 row-end-2 col-start-4 col-end-5 relative h-[230px] [@media(max-width:900px)]:col-start-2 [@media(max-width:900px)]:col-end-3 [@media(max-width:900px)]:row-start-2 [@media(max-width:900px)]:row-end-3">
                     <h4 class="absolute bottom-0 left-[40%]"><span class="text-[#7952b3]"><strong>Bootstrap</strong></span></h4>
                     <img  src="ressources/bootstrap.png" alt="bootstrap" class="w-[220px] h-[200px] mx-auto"/>
                   </div>
@@ -128,22 +129,22 @@
             <section class="contact pb-4 bg-black text-white" id="contact">
               <h3 class="text-center text-3xl py-8"><span class="font-h1 text-[#3636FF]"><i>C</i></span>ontact me</h3> 
               <div>
-                   <form class="myform w-1/3  mx-auto">
-                        <div class="flex gap-1 mb-2" >
-                          <div class=" w-1/2">
+                   <form class="myform w-1/3  mx-auto [@media(max-width:900px)]:w-2/3">
+                        <div class="flex gap-1 mb-4 [@media(max-width:900px)]:flex-col" >
+                          <div class=" w-1/2 [@media(max-width:900px)]:w-[100%] [@media(max-width:900px)]:mb-4">
                             <label for="prenom">Prenom</label><br/>
                             <input type="text" name="prenom" id="prenom" class="w-full rounded text-black focus:outline-[#3636FF]" />
                           </div>
-                          <div class=" w-1/2">
+                          <div class=" w-1/2 [@media(max-width:900px)]:w-[100%]">
                             <label for="prenom">Nom</label><br/>
                             <input type="text" name="nom" id="nom" class="w-full rounded text-black focus:outline-[#3636FF]" />
                           </div> 
                         </div>
-                        <div class="mb-2" >
+                        <div class="mb-4" >
                           <label for="prenom" >Email</label><br/>
                          <input type="email" name="email" id="email" class="w-full rounded text-black focus:outline-[#3636FF]" />
                         </div>
-                        <div class="mb-2">
+                        <div class="mb-4">
                           <label>Message</label><br/> 
                          <textarea placeholder="Votre message ici" class="w-full rounded text-black focus:outline-[#3636FF]" ></textarea>
                         </div>
@@ -156,7 +157,7 @@
       <!--this is the footer-->
       <footer class="bg-[#3636FF] px-[50px]">
         <div class="py-10">
-          <p>
+          <p class="[@media(max-width:900px)]:text-center">
             <span class="text-[25px] font-h1">Joseph Nodichao</span>  <br />
              <strong>< Fullstack web developper /></strong>
            </p>
@@ -168,5 +169,6 @@
       </footer>
     </div>
     <script src="https://kit.fontawesome.com/0a79c8fccf.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
   </body>
 </html>

@@ -26,3 +26,65 @@
     }
 }
 
+
+
+.hamburger{
+   visibility: hidden;
+   font-size: 40px;
+   position: absolute;
+   right: 50px;
+   top : 50px;
+}
+
+
+@media screen and (max-width : 900px){
+    .menu ul{
+        position: absolute;
+        top :0;
+        color: white;
+        background-color: rgb(0, 0, 0,0.5);
+        backdrop-filter: blur(2px);
+        right: 0;
+        display: flex;
+        width: 100%;
+        height: 100vh;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        transition: all 0.5s ease;
+        left: -100%;
+    }
+
+    .mobile-menu ul{
+        left: 0;
+    }
+    .menu .hamburger{
+        visibility: visible;
+    }
+
+    .realisations div{
+        width: 100%;
+        text-align: center;
+    }
+
+    .realisations video{
+        float: unset;
+        margin: 0 auto;
+    }
+    .github{
+        justify-content: center;
+    }
+    .presentation,.realisations{
+        flex-direction: column;
+        justify-content: space-between;
+        
+    }
+    
+
+    .intro{
+        text-align: center;
+        margin-bottom: 15px;
+    }
+
+   
+}
